@@ -4,7 +4,7 @@ GIORNO=$1
 
 if [ $# -eq 0 ] 
 then
-GIORNO=$(date +%u) #acqusizione della data dal sistema
+GIORNO=$(date +%u) #acquisizione della data dal sistema
 fi
 
 if [ "$GIORNO" -lt 7 ]
